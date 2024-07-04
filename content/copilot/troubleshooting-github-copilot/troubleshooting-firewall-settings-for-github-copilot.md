@@ -20,6 +20,10 @@ Due to {% data variables.product.prodname_copilot_short %}'s interaction with a 
 | Domain and/or URL                      | Purpose |
 | :------------------------------------- | :--------------------------------- |
 | `https://github.com/login/*`             | Authentication |
+| `https://github.com/session`             | Authentication & session management |
+| `https://github.com/sessions`             | Authentication & session management |
+| `https://github.com/u2f/login_fragment`             | Authentication & session management |
+| `https://github.com/logout`             | Authentication & session management |
 | `https://api.github.com/user`             | User Management |
 | `https://api.github.com/copilot_internal/*` | User Management |
 | `https://copilot-telemetry.githubusercontent.com/telemetry` | Telemetry |
